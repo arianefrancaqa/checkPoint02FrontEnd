@@ -10,7 +10,7 @@ html {
   border: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  color: #E51B3E;
+  
 }
 
 header {
@@ -57,5 +57,12 @@ nav > ul > li {
 nav > ul > li > a {
     color: #000000;
     text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  color: #E51B3E;
+  transform: scale(1.1);
+  text-decoration: none;
+  font-weight: bold;
 }
 
