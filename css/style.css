@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
 
 html {
   font-size: 18px;
@@ -17,7 +17,7 @@ header {
   height: 80px;
   background-color: #ffffff;
   display: flex;
-  background-color: aqua;
+  background-color: #FFFFFF;
   /* flex-direction: column; */
   justify-content: space-between;
 }
@@ -64,6 +64,50 @@ nav > ul > li > a:hover {
   transform: scale(1.1);
   text-decoration: none;
   font-weight: bold;
+}
+
+.banner {
+  height: 80vh;
+  background-image: url("../img/banner.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2%;
+}
+
+h1 {
+  color: #e51b3e;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.banner > h3 {
+  font-size: 1.33rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.botaoExplorar {
+  width: 322px;
+  height: 71px;
+  border-radius: 12px;
+  background-color: rgba(51, 187, 105, 0.05);
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #33BB69;
+}
+
+.botaoExplorar > a {
+  color:  #FFFFFF;
+  text-decoration: none;
 }
 
 footer {
