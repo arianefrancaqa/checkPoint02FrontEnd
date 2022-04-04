@@ -1,0 +1,71 @@
+html {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner__review {
+  height: 80vh;
+  width: 100%;
+  background-image: url("../img/bannerFilmes.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.infoFilmes > h1{
+  color: black;
+  font-size: 3.5rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.stars > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.descricao {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.fichaTecnica{
+  display: flex;
+  gap: 10%;
+}
+
+.infoFilmes {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.infosFicha > h4 {
+  font-size: 1.33rem;
+}
+
+.infosFicha > span {
+  font-size: 1rem;
+  color: rgba(0, 133, 255, 0.75);
+}
+
+.trailer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trailer > iframe{
+  width: 82.5vw;
+  height: 85vh;
+  padding: 2%;
+}

@@ -133,7 +133,7 @@ h2 {
 
 .cards {
   width: 30%;
-  height: 511.14px;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   padding: 1.1%;

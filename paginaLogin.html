@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/paginaPrincipal.css">
-    <title>DH Flix</title>
+    <link rel="stylesheet" href="css/paginaLogin.css">
+    <title>Login</title>
 </head>
-
 <body>
     <header>
         <div class="logo"><a href="https://www.digitalhouse.com/br/"><img src="img/logo.png" alt=""></a></div>
@@ -24,69 +23,38 @@
         </div>
     </header>
     <main>
-        <div class="banner">
-            <h1>DH Flix</h1>
-            <h3>Confira a maior coletânea de filmes que a Digital House tem a te oferecer</h3>
-            <div class="botaoExplorar">
-                <a href="#itens">Explorar</a>
-            </div>
-        </div>
-        <h2 id="itens">Itens</h2>
-        <div class="container__itens">
-            <div class="cards">
-                <div class="card__capa"></div>
-                <div class="card__info">
-                    <h4>Título</h4>
-                    <h5>Descrição...</h5>
-                    <div class="botao__abrir"><a href="paginaReview.html">Abrir</a></div>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="card__capa"></div>
-                <div class="card__info">
-                    <h4>Título</h4>
-                    <h5>Descrição...</h5>
-                    <div class="botao__abrir"><a href="paginaReview.html">Abrir</a></div>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="card__capa"></div>
-                <div class="card__info">
-                    <h4>Título</h4>
-                    <h5>Descrição...</h5>
-                    <div class="botao__abrir"><a href="paginaReview.html">Abrir</a></div>
-                </div>
-            </div>
-           
-        </div>
+        <h1>Registro</h1>
 
-        <div class="container__itens">
-            <div class="cards">
-                <div class="card__capa"></div>
-                <div class="card__info">
-                    <h4>Título</h4>
-                    <h5>Descrição...</h5>
-                    <div class="botao__abrir"><a href="paginaReview.html">Abrir</a></div>
+        <form action="" method="post">
+
+            <fieldset class="dados">
+
+
+
+                <div>
+
+                    <input type="email" name="email" id="email" placeholder="Email">
                 </div>
-            </div>
-            <div class="cards">
-                <div class="card__capa"></div>
-                <div class="card__info">
-                    <h4>Título</h4>
-                    <h5>Descrição...</h5>
-                    <div class="botao__abrir"><a href="paginaReview.html">Abrir</a></div>
+
+                <div>
+
+                    <input type="password" name="password" id="password" placeholder="Senha">
                 </div>
-            </div>
-            <div class="cards">
-                <div class="card__capa"></div>
-                <div class="card__info">
-                    <h4>Título</h4>
-                    <h5>Descrição...</h5>
-                    <div class="botao__abrir"><a href="paginaReview.html">Abrir</a></div>
+
+
+                <div class="botoes">
+                    <input type="reset" value="Limpar">
+                
+                    <input type="submit" value="Enviar">
                 </div>
-            </div>
-           
-        </div>
+
+                <div class="jaPossuiConta">
+                    <p>Ja possui uma conta?<span><a href="https://lojadoherois.com/login"> Entrar</a></span> </p>
+                </div>
+
+            </fieldset>
+        </form>
+
     </main>
     <footer id="footer">
         <div class="infos">
@@ -121,5 +89,4 @@
         </div>
     </footer>
 </body>
-
 </html>
