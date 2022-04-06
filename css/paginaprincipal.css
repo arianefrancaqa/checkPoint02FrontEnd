@@ -41,13 +41,13 @@ nav {
   width: 100%;
 }
 
-nav > ul {
+nav>ul {
   width: 100%;
   display: flex;
   list-style: none;
 }
 
-nav > ul > li {
+nav>ul>li {
   width: 100%;
   white-space: nowrap;
   display: flex;
@@ -55,12 +55,12 @@ nav > ul > li {
   margin-right: 3%;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   color: #000000;
   text-decoration: none;
 }
 
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
   color: #e51b3e;
   transform: scale(1.1);
   text-decoration: none;
@@ -88,7 +88,7 @@ h1 {
   font-size: 4rem;
 }
 
-.banner > h3 {
+.banner>h3 {
   font-size: 1.33rem;
   color: #ffffff;
   font-weight: 400;
@@ -108,10 +108,11 @@ h1 {
   border: 1px solid #33bb69;
 }
 
-.botaoExplorar > a {
+.botaoExplorar>a {
   color: #ffffff;
   text-decoration: none;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -164,13 +165,13 @@ h2 {
   gap: 5%;
 }
 
-.card__info > h4 {
+.card__info>h4 {
   display: flex;
   align-self: flex-start;
   margin-left: 2%;
 }
 
-.card__info > h5 {
+.card__info>h5 {
   font-weight: 400;
   display: flex;
   align-self: flex-start;
@@ -189,18 +190,18 @@ h2 {
   margin-top: 15%;
 }
 
-.cards > .card__info {
+.cards>.card__info {
   padding: 2%;
 }
 
-.cards > .card__info > .botao__abrir {
+.cards>.card__info>.botao__abrir {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.botao__abrir > a {
+.botao__abrir>a {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
 }
@@ -253,4 +254,78 @@ footer {
 
 .network a img {
   transform: scale(1.5);
+}
+
+@media (max-width: 414px) {
+  /*smartphone*/
+
+  html {
+    font-size: 16px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    height: 100px;
+    align-items: center;
+
+  }
+
+  .banner h3 {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .container__itens {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+
+  .cards {
+    width: 85%;
+  }
+
+  .botao__abrir {
+    width: 70%;
+  }
+
+  footer {
+    height: 90vh;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoAluno {
+    font-size: 0.9rem;
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+  
+  .network {
+    gap: 50%;
+  }
+
+  .nome {
+    font-size: 1.3rem;
+  }
+
+  .infoDesenvolvimento {
+    font-size: 0.7rem;
+  }
+
+  .anoDesenvolvimento {
+    font-size: 0.8rem ;
+  }
+
+
+
 }
