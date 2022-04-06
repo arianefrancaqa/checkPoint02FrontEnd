@@ -70,3 +70,61 @@ html {
   height: 85vh;
   padding: 2%;
 }
+
+@media (max-width: 414px) {
+  /*smartphone iphone 11 promax (414 por 896)*/
+
+  html {
+    font-size: 16px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    height: 100px;
+    align-items: center;
+
+  }
+
+
+  footer {
+    height: 100vh;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoAluno {
+    font-size: 0.9rem;
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+  
+  .network {
+    gap: 50%;
+  }
+
+  .nome {
+    font-size: 1.3rem;
+  }
+
+  .infoDesenvolvimento {
+    font-size: 0.7rem;
+  }
+
+  .anoDesenvolvimento {
+    font-size: 0.8rem ;
+  }
+
+  .trailer > iframe{
+    width: 90.5vw;
+    height: 30vh;
+    padding: 10%;
+  }
+
+
+}
