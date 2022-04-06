@@ -1,0 +1,130 @@
+html {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner__review {
+  height: 80vh;
+  width: 100%;
+  background-image: url("../img/malvado.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.infoFilmes > h1{
+  color: black;
+  font-size: 3.5rem;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.stars > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.descricao {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.fichaTecnica{
+  display: flex;
+  gap: 10%;
+}
+
+.infoFilmes {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.infosFicha > h4 {
+  font-size: 1.33rem;
+}
+
+.infosFicha > span {
+  font-size: 1rem;
+  color: rgba(0, 133, 255, 0.75);
+}
+
+.trailer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trailer > iframe{
+  width: 82.5vw;
+  height: 85vh;
+  padding: 2%;
+}
+
+@media (max-width: 414px) {
+  /*smartphone iphone 11 promax (414 por 896)*/
+
+  html {
+    font-size: 16px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    height: 100px;
+    align-items: center;
+
+  }
+
+
+  footer {
+    height: 100vh;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoAluno {
+    font-size: 0.9rem;
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+  
+  .network {
+    gap: 50%;
+  }
+
+  .nome {
+    font-size: 1.3rem;
+  }
+
+  .infoDesenvolvimento {
+    font-size: 0.7rem;
+  }
+
+  .anoDesenvolvimento {
+    font-size: 0.8rem ;
+  }
+
+  .trailer > iframe{
+    width: 90.5vw;
+    height: 30vh;
+    padding: 10%;
+  }
+
+
+}

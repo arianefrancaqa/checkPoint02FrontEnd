@@ -152,9 +152,58 @@ h2 {
   border-top-right-radius: 12px;
 }
 
+.card__capa2 {
+  height: 50%;
+  background-image: url("../img/jhon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card__capa3 {
+  height: 50%;
+  background-image: url("../img/malvado.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card__capa4 {
+  height: 50%;
+  background-image: url("../img/marley.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card__capa5 {
+  height: 50%;
+  background-image: url("../img/smith.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card__capa6 {
+  height: 50%;
+  background-image: url("../img/crespusculo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
 .card__info {
   padding: 1%;
-  height: 50%;
+  height: 60%;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   background-color: rgba(244, 244, 244, 1);
