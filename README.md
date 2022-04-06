@@ -1,7 +1,6 @@
-# Front-end CheckPoin 02
-Página Receita de Torta de Limão
+# Front-end CheckPoint 02
 
-# Developers: :computer:
+## Developers: :computer:
 - Ariane França
 - André Goldoni
 - João Nishimura
